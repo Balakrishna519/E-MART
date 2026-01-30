@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-MART Offers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Offer Section -->
+  <div class="offer-bar">
+    <span class="offer-icon">🔥</span>
+    <span id="offer-text"></span>
+  </div>
+
+  
+
+  <nav class="navbar">
+  <div class="logo">E-Mart</div>
+
+  <div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search products...">
+  <div class="search-results" id="searchResults"></div>
+</div>
+
+
+<div class="nav-links">
+<a href="#" id="loginBtn">Login</a>
+<div id="welcome" class="hidden"></div>
+
+<div class="login-modal hidden" id="loginModal">
+  <div class="login-box">
+    <h3>Enter your name</h3>
+    <input type="text" id="username" placeholder="Your name">
+    <button id="doLogin">Login</button>
+  </div>
+</div>
+
+
+
+
+<div id="welcome" class="hidden"></div>
+
+    <a href="#" class="cart" id="toggleCart">
+  🛒 Cart <span id="cart-count">0</span>
+</a>
+
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button id="closeCart">✖</button>
+  </div>
+  <div id="cartItems"></div>
+</div>
+
+
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+</nav>
+
+
+
+
+<!-- Slider -->
+<div class="carousel-container">
+  <div class="carousel-track" id="carouselTrack">
+    <!-- Items injected by JS -->
+  </div>
+</div>
+
+
+<!-- Category Sections -->
+<div id="category-sections"></div>
+
+
+  <script src="script.js"></script>
+ 
+<!-- Loader (only once) -->
+
+</body>
+</html>
